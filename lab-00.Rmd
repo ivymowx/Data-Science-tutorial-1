@@ -47,19 +47,19 @@ p1
 ```
 
 
-*
+* The data that we collected in the tutorial plotted on a bar graph *
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Name", 
+          y = "Colour",
+          title = "Favourite Colour")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+* labs command puts the x and y axis of the graph and the title *
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+*.*
